@@ -1,3 +1,6 @@
+use tch::Tensor;
+
 fn main() {
-    println!("Hello, world!");
+    let t = Tensor::of_slice(&[1;2]);
+    
 }
